@@ -19,8 +19,8 @@
   "maturity": "development",
   "scope": "unstable",
   "dependsOn": [
-    "ogc.geo.features.feature",
-    "ogc.bbr.template.AdministrativeBoundary"
+    "ogc.bbr.template.AdministrativeBoundary",
+    "ogc.geo.features.feature"
   ],
   "tags": [
     "feature",

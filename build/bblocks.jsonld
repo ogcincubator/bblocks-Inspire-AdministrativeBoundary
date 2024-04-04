@@ -106,7 +106,7 @@
   "name": "Building Blocks - OGC API Profile- Administrative Borders of Catalonia",
   "abstract": "This document details the process of creating a specific profile of the Open Geospatial Consortium (OGC) API to manage and serve geospatial data related to the Administrative Borders of Catalonia. The goal is to provide a standardized and efficient interface for accessing this data through web applications and geospatial services.\n \n[AdministrativeBoundary](https://geoserveis.ide.cat/servei/catalunya/inspire/ogc/features/collections/inspire:AU.AdministrativeBoundary/).\n",
   "description": "AdministrativeBoundary: In the INSPIRE framework (Infrastructure for Spatial Information in the European Community), \"Administrative Boundary\" refers to a geographical entity that defines the limits of administrative areas. INSPIRE is a law in the European Union. It aims to create a system for sharing spatial information in Europe to help with environmental decision-making. It makes sure spatial information across Europe is standardized and easy to access.\n",
-  "modified": "2024-04-04T09:50:01.489154",
+  "modified": "2024-04-04T09:59:35.577493",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"c150183b2ddb43ea6bcf71feddabe22a4025f524",
@@ -385,8 +385,8 @@
       "maturity": "development",
       "scope": "unstable",
       "dependsOn": [
-        "ogc.geo.features.feature",
-        "ogc.bbr.template.AdministrativeBoundary"
+        "ogc.bbr.template.AdministrativeBoundary",
+        "ogc.geo.features.feature"
       ],
       "tags": [
         "feature",
