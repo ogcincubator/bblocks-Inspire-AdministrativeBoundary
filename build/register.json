@@ -2,7 +2,7 @@
   "name": "OGC API Profile- Administrative Borders of Catalonia",
   "abstract": "This document details the process of creating a specific profile of the Open Geospatial Consortium (OGC) API to manage and serve geospatial data related to the Administrative Borders of Catalonia. The goal is to provide a standardized and efficient interface for accessing this data through web applications and geospatial services.\n \n[AdministrativeBoundary](https://geoserveis.ide.cat/servei/catalunya/inspire/ogc/features/collections/inspire:AU.AdministrativeBoundary/).\n",
   "description": "AdministrativeBoundary: In the INSPIRE framework (Infrastructure for Spatial Information in the European Community), \"Administrative Boundary\" refers to a geographical entity that defines the limits of administrative areas. INSPIRE is a law in the European Union. It aims to create a system for sharing spatial information in Europe to help with environmental decision-making. It makes sure spatial information across Europe is standardized and easy to access.\n",
-  "modified": "2024-04-04T10:05:13.450633",
+  "modified": "2024-04-04T10:10:33.745618",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"c150183b2ddb43ea6bcf71feddabe22a4025f524",
@@ -54,13 +54,13 @@
       "validationPassed": true,
       "testOutputs": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/blob/main/build/tests/bbr/template/TechnicalStatusValue/",
       "documentation": {
-        "json-full": {
-          "mediatype": "application/json",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/TechnicalStatusValue/index.json"
-        },
         "markdown": {
           "mediatype": "text/markdown",
           "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/TechnicalStatusValue/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/TechnicalStatusValue/index.json"
         },
         "slate": {
           "mediatype": "text/html",
@@ -108,13 +108,13 @@
       "validationPassed": true,
       "testOutputs": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/blob/main/build/tests/bbr/template/AdministrativeHierarchyLevel/",
       "documentation": {
-        "json-full": {
-          "mediatype": "application/json",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/AdministrativeHierarchyLevel/index.json"
-        },
         "markdown": {
           "mediatype": "text/markdown",
           "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/AdministrativeHierarchyLevel/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/AdministrativeHierarchyLevel/index.json"
         },
         "slate": {
           "mediatype": "text/html",
@@ -162,13 +162,13 @@
       "validationPassed": true,
       "testOutputs": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/blob/main/build/tests/bbr/template/LegalStatusValue/",
       "documentation": {
-        "json-full": {
-          "mediatype": "application/json",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/LegalStatusValue/index.json"
-        },
         "markdown": {
           "mediatype": "text/markdown",
           "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/LegalStatusValue/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/LegalStatusValue/index.json"
         },
         "slate": {
           "mediatype": "text/html",
@@ -219,13 +219,13 @@
       "validationPassed": true,
       "testOutputs": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/blob/main/build/tests/bbr/template/AdministrativeBoundary/",
       "documentation": {
-        "json-full": {
-          "mediatype": "application/json",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/AdministrativeBoundary/index.json"
-        },
         "markdown": {
           "mediatype": "text/markdown",
           "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/AdministrativeBoundary/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/AdministrativeBoundary/index.json"
         },
         "slate": {
           "mediatype": "text/html",
@@ -256,8 +256,8 @@
       "maturity": "development",
       "scope": "unstable",
       "dependsOn": [
-        "ogc.bbr.template.AdministrativeBoundary",
-        "ogc.geo.features.feature"
+        "ogc.geo.features.feature",
+        "ogc.bbr.template.AdministrativeBoundary"
       ],
       "tags": [
         "feature",
@@ -279,13 +279,13 @@
       "validationPassed": true,
       "testOutputs": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/blob/main/build/tests/bbr/template/AdministrativeBoundaryFeature/",
       "documentation": {
-        "json-full": {
-          "mediatype": "application/json",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/AdministrativeBoundaryFeature/index.json"
-        },
         "markdown": {
           "mediatype": "text/markdown",
           "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/AdministrativeBoundaryFeature/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/AdministrativeBoundaryFeature/index.json"
         },
         "slate": {
           "mediatype": "text/html",

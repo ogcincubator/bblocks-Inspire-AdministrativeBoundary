@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.template.LegalStatusValue - LegalStatusValue
-Generated 2024-04-04T10:05:14.643204+00:00
+Generated 2024-04-04T10:10:35.371147+00:00
 === Files ===
 Using example_1_1.json from examples
 === End Files ===
