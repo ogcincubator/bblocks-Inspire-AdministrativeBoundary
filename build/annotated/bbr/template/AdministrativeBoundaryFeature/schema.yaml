@@ -1,0 +1,12 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+description: Example of a simple GeoJSON Feature AdministrativeBoundary with Inspire
+  Model
+$defs:
+  MyFeature:
+    allOf:
+    - $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml
+    - properties:
+        properties:
+          $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml
+anyOf:
+- $ref: '#/$defs/MyFeature'

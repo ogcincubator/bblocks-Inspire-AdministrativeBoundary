@@ -1,0 +1,435 @@
+{
+  "@context": [
+    {
+      "@base": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main"
+    },
+    {
+      "bblocks": "https://www.opengis.net/def/bblocks/",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "dct": "http://purl.org/dc/terms/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "prof": "http://www.w3.org/ns/dx/prof/",
+      "dcat": "http://www.w3.org/ns/dcat#",
+      "modspec": "http://www.opengis.net/def/ont/modspec/",
+      "itemIdentifier": "@id",
+      "baseURL": "@id",
+      "name": "rdfs:label",
+      "abstract": "dct:abstract",
+      "description": "dct:description",
+      "status": {
+        "@id": "bblocks:status",
+        "@type": "@id",
+        "@context": {
+          "@base": "http://www.opengis.net/def/status/"
+        }
+      },
+      "dateTimeAddition": {
+        "@id": "dct:created",
+        "@type": "xsd:dateTime"
+      },
+      "version": "dct:hasVersion",
+      "dateOfLastChange": {
+        "@id": "dct:modified",
+        "@type": "xsd:date"
+      },
+      "scope": {
+        "@id": "bblocks:scope",
+        "@type": "@id",
+        "@context": {
+          "@base": "http://www.opengis.net/def/bblocks/scope/"
+        }
+      },
+      "sources": {
+        "@id": "dct:source",
+        "@context": {
+          "title": "rdfs:label",
+          "link": "@id"
+        }
+      },
+      "schema": {
+        "@id": "bblocks:hasSchema",
+        "@type": "@id",
+        "@container": "@index",
+        "@index": "dct:format"
+      },
+      "ldContext": {
+        "@id": "bblocks:hasJsonLdContext",
+        "@type": "@id"
+      },
+      "sourceLdContext": {
+        "@id": "bblocks:hasSourceJsonLdContext",
+        "@type": "@id"
+      },
+      "documentation": {
+        "@id": "dct:description",
+        "@type": "@id",
+        "@container": "@index",
+        "@index": "dct:identifier",
+        "@context": {
+          "mediatype": "dct:format",
+          "url": "rdfs:isDefinedBy"
+        }
+      },
+      "hasConcepts": {
+        "@reverse": "skos:inScheme"
+      },
+      "dependsOn": {
+        "@id": "bblocks:dependsOn",
+        "@type": "@id"
+      },
+      "profileOf": {
+        "@id": "prof:isProfileOf",
+        "@type": "@id"
+      },
+      "tags": "dcat:keyword",
+      "shaclRules": {
+        "@id": "bblocks:hasShaclRule",
+        "@type": "@id",
+        "@container": "@index",
+        "@index": "rdfs:seeAlso"
+      },
+      "validationReport": {
+        "@id": "bblocks:hasValidationReport",
+        "@type": "@id"
+      },
+      "imports": {
+        "@id": "bblocks:imports",
+        "@type": "@id"
+      },
+      "conformanceClasses": {
+        "@id": "modspec:class",
+        "@type": "@id"
+      }
+    }
+  ],
+  "name": "Building Blocks - OGC API Profile- Administrative Borders of Catalonia",
+  "abstract": "This document details the process of creating a specific profile of the Open Geospatial Consortium (OGC) API to manage and serve geospatial data related to the Administrative Borders of Catalonia. The goal is to provide a standardized and efficient interface for accessing this data through web applications and geospatial services.\n \n[AdministrativeBoundary](https://geoserveis.ide.cat/servei/catalunya/inspire/ogc/features/collections/inspire:AU.AdministrativeBoundary/).\n",
+  "description": "AdministrativeBoundary: In the INSPIRE framework (Infrastructure for Spatial Information in the European Community), \"Administrative Boundary\" refers to a geographical entity that defines the limits of administrative areas. INSPIRE is a law in the European Union. It aims to create a system for sharing spatial information in Europe to help with environmental decision-making. It makes sure spatial information across Europe is standardized and easy to access.\n",
+  "modified": "2024-04-04T09:50:01.489154",
+  "tooling": {
+    "bblocks-postprocess": {
+      "commitId": "\"c150183b2ddb43ea6bcf71feddabe22a4025f524",
+      "shortCommitId": "\"c15018",
+      "date": "2024-03-22T10:03:03+00:00\""
+    }
+  },
+  "gitRepository": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary",
+  "gitHubRepository": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/blob/main/",
+  "baseURL": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/",
+  "viewerURL": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/",
+  "validationReport": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/tests/report.html",
+  "imports": [
+    "https://opengeospatial.github.io/bblocks/register.json"
+  ],
+  "@type": [
+    "skos:ConceptScheme",
+    "dcat:Catalog"
+  ],
+  "skos:prefLabel": "Building Blocks - OGC API Profile- Administrative Borders of Catalonia",
+  "hasConcepts": [
+    {
+      "itemIdentifier": "ogc.bbr.template.TechnicalStatusValue",
+      "$schema": "metaschema.yaml",
+      "name": "TechnicalStatusValue",
+      "abstract": "enumeration",
+      "status": "under-development",
+      "dateTimeAddition": "2023-04-05T00:00:00Z",
+      "itemClass": "schema",
+      "register": "ogc-building-block-register",
+      "version": "0.1",
+      "dateOfLastChange": "2024-04-04",
+      "sources": [
+        {
+          "title": "INSPIRE registry",
+          "link": "https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary"
+        }
+      ],
+      "maturity": "development",
+      "scope": "unstable",
+      "tags": [
+        "administrativeboundary",
+        "administrativeunits",
+        "inspire",
+        "technicalstatusValue"
+      ],
+      "shaclRules": {},
+      "schema": {
+        "application/yaml": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema.json"
+      },
+      "sourceSchema": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/TechnicalStatusValue/schema.yaml",
+      "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/TechnicalStatusValue/",
+      "validationPassed": true,
+      "testOutputs": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/blob/main/build/tests/bbr/template/TechnicalStatusValue/",
+      "documentation": {
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/TechnicalStatusValue/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/TechnicalStatusValue/index.md"
+        },
+        "slate": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/slate-build/bbr/template/TechnicalStatusValue/"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/bblock/ogc.bbr.template.TechnicalStatusValue"
+        }
+      },
+      "@type": [
+        "bblocks:Schema",
+        "skos:Concept",
+        "dcat:Dataset"
+      ]
+    },
+    {
+      "itemIdentifier": "ogc.bbr.template.AdministrativeHierarchyLevel",
+      "$schema": "metaschema.yaml",
+      "name": "AdministrativeHierarchyLevel",
+      "abstract": "codelist",
+      "status": "under-development",
+      "dateTimeAddition": "2023-04-05T00:00:00Z",
+      "itemClass": "schema",
+      "register": "ogc-building-block-register",
+      "version": "0.1",
+      "dateOfLastChange": "2024-04-04",
+      "link": "https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel",
+      "sources": [
+        {
+          "title": "INSPIRE registry",
+          "link": "https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary"
+        }
+      ],
+      "maturity": "Experimental",
+      "scope": "unstable",
+      "tags": [
+        "administrative boundary",
+        "administrative units",
+        "inspire",
+        "administrative hierarchy level"
+      ],
+      "shaclRules": {},
+      "schema": {
+        "application/yaml": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeHierarchyLevel/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeHierarchyLevel/schema.json"
+      },
+      "sourceSchema": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/AdministrativeHierarchyLevel/schema.yaml",
+      "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/AdministrativeHierarchyLevel/",
+      "validationPassed": true,
+      "testOutputs": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/blob/main/build/tests/bbr/template/AdministrativeHierarchyLevel/",
+      "documentation": {
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/AdministrativeHierarchyLevel/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/AdministrativeHierarchyLevel/index.md"
+        },
+        "slate": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/slate-build/bbr/template/AdministrativeHierarchyLevel/"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/bblock/ogc.bbr.template.AdministrativeHierarchyLevel"
+        }
+      },
+      "@type": [
+        "bblocks:Schema",
+        "skos:Concept",
+        "dcat:Dataset"
+      ]
+    },
+    {
+      "itemIdentifier": "ogc.bbr.template.LegalStatusValue",
+      "$schema": "metaschema.yaml",
+      "name": "LegalStatusValue",
+      "abstract": "enumeration",
+      "status": "under-development",
+      "dateTimeAddition": "2023-04-05T00:00:00Z",
+      "itemClass": "schema",
+      "register": "ogc-building-block-register",
+      "version": "0.1",
+      "dateOfLastChange": "2024-04-04",
+      "link": "https://inspire.ec.europa.eu/enumeration/LegalStatusValue",
+      "sources": [
+        {
+          "title": "INSPIRE registry",
+          "link": "https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary"
+        }
+      ],
+      "maturity": "Experimental",
+      "scope": "unstable",
+      "tags": [
+        "administrative boundary",
+        "administrative units",
+        "inspire",
+        "legal statusValue"
+      ],
+      "shaclRules": {},
+      "schema": {
+        "application/yaml": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/LegalStatusValue/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/LegalStatusValue/schema.json"
+      },
+      "sourceSchema": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/LegalStatusValue/schema.yaml",
+      "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/LegalStatusValue/",
+      "validationPassed": true,
+      "testOutputs": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/blob/main/build/tests/bbr/template/LegalStatusValue/",
+      "documentation": {
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/LegalStatusValue/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/LegalStatusValue/index.md"
+        },
+        "slate": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/slate-build/bbr/template/LegalStatusValue/"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/bblock/ogc.bbr.template.LegalStatusValue"
+        }
+      },
+      "@type": [
+        "bblocks:Schema",
+        "skos:Concept",
+        "dcat:Dataset"
+      ]
+    },
+    {
+      "itemIdentifier": "ogc.bbr.template.AdministrativeBoundary",
+      "$schema": "metaschema.yaml",
+      "name": "AdministrativeBoundary",
+      "abstract": "Defines a specific interoperability profile of the AdministrativeBoundary dataset with the Inspire data model",
+      "status": "under-development",
+      "dateTimeAddition": "2023-04-05T00:00:00Z",
+      "itemClass": "schema",
+      "register": "ogc-building-block-register",
+      "version": "0.1",
+      "dateOfLastChange": "2024-04-04",
+      "link": "https://github.com/MayteToscano/bblock-template/AdministrativeBoundary",
+      "sources": [
+        {
+          "title": "INSPIRE registry",
+          "link": "https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary"
+        }
+      ],
+      "maturity": "Experimental",
+      "scope": "unstable",
+      "tags": [
+        "administrative boundary",
+        "administrative units",
+        "inspire",
+        "OGC-API"
+      ],
+      "shaclRules": {},
+      "dependsOn": [
+        "ogc.bbr.template.TechnicalStatusValue"
+      ],
+      "schema": {
+        "application/yaml": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema.json"
+      },
+      "sourceSchema": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/AdministrativeBoundary/schema.yaml",
+      "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/AdministrativeBoundary/",
+      "validationPassed": true,
+      "testOutputs": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/blob/main/build/tests/bbr/template/AdministrativeBoundary/",
+      "documentation": {
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/AdministrativeBoundary/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/AdministrativeBoundary/index.md"
+        },
+        "slate": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/slate-build/bbr/template/AdministrativeBoundary/"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/bblock/ogc.bbr.template.AdministrativeBoundary"
+        }
+      },
+      "@type": [
+        "bblocks:Schema",
+        "skos:Concept",
+        "dcat:Dataset"
+      ]
+    },
+    {
+      "itemIdentifier": "ogc.bbr.template.AdministrativeBoundaryFeature",
+      "name": "AdministrativeBoundary Feature",
+      "abstract": "Defines a specific interoperability profile of the AdministrativeBoundary for OGC API Feature schemas and Inspire data model",
+      "status": "under-development",
+      "dateTimeAddition": "2023-05-19T00:00:00Z",
+      "itemClass": "schema",
+      "register": "ogc-building-block-examples",
+      "version": "1.0",
+      "dateOfLastChange": "2024-04-04",
+      "sources": [
+        {
+          "title": "OGC API - Features, Part 1, 7.16.2: Feature Response",
+          "link": "https://docs.ogc.org/is/17-069r3/17-069r3.html#_response_7"
+        }
+      ],
+      "maturity": "development",
+      "scope": "unstable",
+      "dependsOn": [
+        "ogc.geo.features.feature",
+        "ogc.bbr.template.AdministrativeBoundary"
+      ],
+      "tags": [
+        "feature",
+        "AdministrativeBoundary",
+        "AdministrativeUnits",
+        "Inspire",
+        "OGC-API"
+      ],
+      "group": "AdministrativeBoundary",
+      "highlighted": true,
+      "shaclRules": {},
+      "schema": {
+        "application/yaml": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema.json"
+      },
+      "ldContext": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/context.jsonld",
+      "sourceSchema": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/AdministrativeBoundaryFeature/schema.yaml",
+      "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/AdministrativeBoundaryFeature/",
+      "validationPassed": true,
+      "testOutputs": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/blob/main/build/tests/bbr/template/AdministrativeBoundaryFeature/",
+      "documentation": {
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/AdministrativeBoundaryFeature/index.json"
+        },
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/AdministrativeBoundaryFeature/index.md"
+        },
+        "slate": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/slate-build/bbr/template/AdministrativeBoundaryFeature/"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/bblock/ogc.bbr.template.AdministrativeBoundaryFeature"
+        }
+      },
+      "@type": [
+        "bblocks:Schema",
+        "skos:Concept",
+        "dcat:Dataset"
+      ]
+    }
+  ]
+}

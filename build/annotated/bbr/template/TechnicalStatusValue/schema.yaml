@@ -1,0 +1,16 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+description: Schemas for TechnicalStatusValue
+type: object
+properties:
+  technicalstatus:
+    description: Description of the technical status of administrative boundaries.
+    type: string
+    oneOf:
+    - const: edgeMatched
+      descripcion: The boundaries of neighbouring administrative units have the same
+        set of coordinates
+    - const: notEdgeMatched
+      descripcion: The boundaries of neighbouring administrative units do not have
+        the same set of coordinates
+required:
+- technicalstatus

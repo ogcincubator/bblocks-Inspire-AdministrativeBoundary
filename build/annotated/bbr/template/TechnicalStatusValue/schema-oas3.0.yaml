@@ -1,0 +1,21 @@
+x-defs:
+  ogc.bbr.template.TechnicalStatusValue:
+    description: Schemas for TechnicalStatusValue
+    type: object
+    properties:
+      technicalstatus:
+        description: Description of the technical status of administrative boundaries.
+        type: string
+        oneOf:
+        - const: edgeMatched
+          descripcion: The boundaries of neighbouring administrative units have the
+            same set of coordinates
+        - const: notEdgeMatched
+          descripcion: The boundaries of neighbouring administrative units do not
+            have the same set of coordinates
+    required:
+    - technicalstatus
+    x-schema-version: https://json-schema.org/draft/2020-12/schema
+    x-schema-source: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema-oas3.0.yaml
+allOf:
+- $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema-oas3.0.yaml#/x-defs/ogc.bbr.template.TechnicalStatusValue

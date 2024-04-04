@@ -1,0 +1,55 @@
+
+
+{
+  "itemIdentifier": "ogc.bbr.template.TechnicalStatusValue",
+  "$schema": "metaschema.yaml",
+  "name": "TechnicalStatusValue",
+  "abstract": "enumeration",
+  "status": "under-development",
+  "dateTimeAddition": "2023-04-05T00:00:00Z",
+  "itemClass": "schema",
+  "register": "ogc-building-block-register",
+  "version": "0.1",
+  "dateOfLastChange": "2024-04-04",
+  "sources": [
+    {
+      "title": "INSPIRE registry",
+      "link": "https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary"
+    }
+  ],
+  "maturity": "development",
+  "scope": "unstable",
+  "tags": [
+    "administrativeboundary",
+    "administrativeunits",
+    "inspire",
+    "technicalstatusValue"
+  ],
+  "shaclRules": {},
+  "schema": {
+    "application/yaml": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema.yaml",
+    "application/json": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema.json"
+  },
+  "sourceSchema": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/TechnicalStatusValue/schema.yaml",
+  "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/TechnicalStatusValue/",
+  "validationPassed": true,
+  "testOutputs": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/blob/main/build/tests/bbr/template/TechnicalStatusValue/",
+  "description": "\n## Enumeration TechnicalStatusValue\nDescription of the technical status of administrative boundaries.\n## Values TechnicalStatusValue\n| Status      | Description                                                                                   |\n|-------------|-----------------------------------------------------------------------------------------------|\n| edgeMatched      | The boundaries of neighbouring administrative units have the same set of coordinates |\n| notEdgeMatched   | The boundaries of neighbouring administrative units do not have the same set of coordinates |\n\n ",
+  "examples": [
+    {
+      "title": "Example of TechnicalStatusValue Enumeration",
+      "base-uri": "http://example.com/features/",
+      "snippets": [
+        {
+          "language": "json",
+          "ref": "examples/TechnicalStatusValue.json",
+          "code": "{\n  \"technicalstatus\": \"edgeMatched\"\n}",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/tests/bbr/template/TechnicalStatusValue/example_1_1.json"
+        }
+      ]
+    }
+  ],
+  "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\ndescription: Schemas for TechnicalStatusValue\ntype: object\nproperties:\n  technicalstatus:\n    description: Description of the technical status of administrative boundaries.\n    type: string\n    oneOf:\n    - const: edgeMatched\n      descripcion: The boundaries of neighbouring administrative units have the same\n        set of coordinates\n    - const: notEdgeMatched\n      descripcion: The boundaries of neighbouring administrative units do not have\n        the same set of coordinates\nrequired:\n- technicalstatus\n",
+  "gitRepository": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary",
+  "gitPath": "_sources/TechnicalStatusValue"
+}

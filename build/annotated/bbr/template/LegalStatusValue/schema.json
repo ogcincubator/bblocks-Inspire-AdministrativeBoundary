@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Schemas for LegalStatusValue",
+  "type": "object",
+  "properties": {
+    "legalstatus": {
+      "description": "Description of the legal status of administrative boundaries.",
+      "type": "string",
+      "oneOf": [
+        {
+          "const": "agreed",
+          "descripcion": "The edge-matched boundary has been agreed between neighbouring administrative units and is stable now"
+        },
+        {
+          "const": "notAgreed",
+          "descripcion": "The edge-matched boundary has not yet been agreed between neighbouring administrative units and could be changed"
+        }
+      ]
+    }
+  },
+  "required": [
+    "legalstatus"
+  ]
+}
