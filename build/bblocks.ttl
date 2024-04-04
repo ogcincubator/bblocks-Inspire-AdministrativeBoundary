@@ -13,14 +13,14 @@
     rdfs:label "AdministrativeBoundary Feature" ;
     dct:abstract "Defines a specific interoperability profile of the AdministrativeBoundary for OGC API Feature schemas and Inspire data model" ;
     dct:created "2023-05-19T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/bblock/ogc.bbr.template.AdministrativeBoundaryFeature" ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/AdministrativeBoundaryFeature/index.md" ],
-        [ dct:format "application/json" ;
+    dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/AdministrativeBoundaryFeature/index.json" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/slate-build/bbr/template/AdministrativeBoundaryFeature/" ] ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/slate-build/bbr/template/AdministrativeBoundaryFeature/" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/bblock/ogc.bbr.template.AdministrativeBoundaryFeature" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/AdministrativeBoundaryFeature/index.md" ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2024-04-04"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r3/17-069r3.html#_response_7> ;
@@ -46,10 +46,10 @@
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/AdministrativeHierarchyLevel/index.md" ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/slate-build/bbr/template/AdministrativeHierarchyLevel/" ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/AdministrativeHierarchyLevel/index.json" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/slate-build/bbr/template/AdministrativeHierarchyLevel/" ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/bblock/ogc.bbr.template.AdministrativeHierarchyLevel" ] ;
     dct:hasVersion "0.1" ;
@@ -71,12 +71,12 @@
     rdfs:label "LegalStatusValue" ;
     dct:abstract "enumeration" ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/bblock/ogc.bbr.template.LegalStatusValue" ],
+        [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/LegalStatusValue/index.json" ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/slate-build/bbr/template/LegalStatusValue/" ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/bblock/ogc.bbr.template.LegalStatusValue" ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/LegalStatusValue/index.md" ] ;
     dct:hasVersion "0.1" ;
@@ -100,14 +100,14 @@
     rdfs:label "AdministrativeBoundary" ;
     dct:abstract "Defines a specific interoperability profile of the AdministrativeBoundary dataset with the Inspire data model" ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/AdministrativeBoundary/index.md" ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/bblock/ogc.bbr.template.AdministrativeBoundary" ],
-        [ dct:format "application/json" ;
+    dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/AdministrativeBoundary/index.json" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/slate-build/bbr/template/AdministrativeBoundary/" ] ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/slate-build/bbr/template/AdministrativeBoundary/" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/bblock/ogc.bbr.template.AdministrativeBoundary" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/AdministrativeBoundary/index.md" ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2024-04-04"^^xsd:date ;
     dct:source <https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary> ;
@@ -129,13 +129,13 @@
     dct:abstract "enumeration" ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/slate-build/bbr/template/TechnicalStatusValue/" ],
-        [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/bblock/ogc.bbr.template.TechnicalStatusValue" ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/TechnicalStatusValue/index.md" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/slate-build/bbr/template/TechnicalStatusValue/" ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/TechnicalStatusValue/index.json" ] ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/json-full/bbr/template/TechnicalStatusValue/index.json" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/generateddocs/markdown/bbr/template/TechnicalStatusValue/index.md" ] ;
     dct:hasVersion "0.1" ;
     dct:modified "2024-04-04"^^xsd:date ;
     dct:source <https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary> ;
@@ -165,15 +165,15 @@
     bblocks:imports <https://opengeospatial.github.io/bblocks/register.json> .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-04-04T09:59:36.903975"^^xsd:dateTime ;
-    prov:startedAtTime "2024-04-04T09:59:36.839792"^^xsd:dateTime ;
+    prov:endedAtTime "2024-04-04T10:05:14.893639"^^xsd:dateTime ;
+    prov:startedAtTime "2024-04-04T10:05:14.830052"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
-            dct:format "application/yaml" ;
-            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
-        [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:a8f2362561d0c2d28b2b10fe24fd6fc12502ed56" ;
-            rdfs:seeAlso <https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/register.json> ] ;
+            dct:hasVersion "git:c9c201e342823cab89d1415b75463a040c0b7acc" ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/register.json> ],
+        [ a prov:Entity ;
+            dct:format "application/yaml" ;
+            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
