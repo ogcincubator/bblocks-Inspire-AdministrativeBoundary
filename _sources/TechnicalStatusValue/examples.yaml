@@ -1,0 +1,6 @@
+
+- title: Example of TechnicalStatusValue Enumeration
+  base-uri: http://example.com/features/
+  snippets:
+    - language: json
+      ref: examples/TechnicalStatusValue.json

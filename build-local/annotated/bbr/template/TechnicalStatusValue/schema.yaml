@@ -1,0 +1,14 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+description: Schemas for TechnicalStatusValue
+type: object
+properties:
+  technicalstatus:
+    description: Description of the technical status of administrative boundaries.
+    type: string
+    oneOf:
+    - const: edgeMatched
+      descripcion: edgeMatched
+    - const: notEdgeMatched
+      descripcion: notEdgeMatched
+required:
+- technicalstatus

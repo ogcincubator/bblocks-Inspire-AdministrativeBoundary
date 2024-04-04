@@ -1,0 +1,172 @@
+@prefix bblocks: <https://www.opengis.net/def/bblocks/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:9090/register/ogc.bbr.template.AdministrativeBoundaryFeature> a skos:Concept,
+        dcat:Dataset,
+        bblocks:Schema ;
+    rdfs:label "AdministrativeBoundary Feature" ;
+    dct:abstract "Defines a specific interoperability profile of the AdministrativeBoundary for OGC API Feature schemas and Inspire data model" ;
+    dct:created "2023-05-19T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "http://localhost:9090/register/build-local/generateddocs/markdown/bbr/template/AdministrativeBoundaryFeature/index.md" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "http://localhost:9090/register/build-local/generateddocs/slate-build/bbr/template/AdministrativeBoundaryFeature/" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "http://localhost:9090/register/build-local/generateddocs/json-full/bbr/template/AdministrativeBoundaryFeature/index.json" ] ;
+    dct:hasVersion "1.0" ;
+    dct:modified "2024-03-03"^^xsd:date ;
+    dct:source <https://docs.ogc.org/is/17-069r3/17-069r3.html#_response_7> ;
+    skos:inScheme <http://localhost:9090/register/> ;
+    dcat:keyword "AdministrativeBoundary",
+        "AdministrativeUnits",
+        "Inspire",
+        "OGC-API",
+        "feature" ;
+    bblocks:dependsOn <http://localhost:9090/register/ogc.bbr.template.AdministrativeBoundary>,
+        <http://localhost:9090/register/ogc.geo.features.feature> ;
+    bblocks:hasJsonLdContext <http://localhost:9090/register/build-local/annotated/bbr/template/AdministrativeBoundaryFeature/context.jsonld> ;
+    bblocks:hasSchema <http://localhost:9090/register/build-local/annotated/bbr/template/AdministrativeBoundaryFeature/schema.json>,
+        <http://localhost:9090/register/build-local/annotated/bbr/template/AdministrativeBoundaryFeature/schema.yaml> ;
+    bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> .
+
+<http://localhost:9090/register/ogc.bbr.template.AdministrativeHierarchyLevel> a skos:Concept,
+        dcat:Dataset,
+        bblocks:Schema ;
+    rdfs:label "AdministrativeHierarchyLevel" ;
+    dct:abstract "codelist" ;
+    dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy "http://localhost:9090/register/build-local/generateddocs/slate-build/bbr/template/AdministrativeHierarchyLevel/" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "http://localhost:9090/register/build-local/generateddocs/json-full/bbr/template/AdministrativeHierarchyLevel/index.json" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "http://localhost:9090/register/build-local/generateddocs/markdown/bbr/template/AdministrativeHierarchyLevel/index.md" ] ;
+    dct:hasVersion "0.1" ;
+    dct:modified "2024-03-05"^^xsd:date ;
+    dct:source <https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary> ;
+    skos:inScheme <http://localhost:9090/register/> ;
+    dcat:keyword "administrative boundary",
+        "administrative hierarchy level",
+        "administrative units",
+        "inspire" ;
+    bblocks:hasSchema <http://localhost:9090/register/build-local/annotated/bbr/template/AdministrativeHierarchyLevel/schema.json>,
+        <http://localhost:9090/register/build-local/annotated/bbr/template/AdministrativeHierarchyLevel/schema.yaml> ;
+    bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> .
+
+<http://localhost:9090/register/ogc.bbr.template.LegalStatusValue> a skos:Concept,
+        dcat:Dataset,
+        bblocks:Schema ;
+    rdfs:label "LegalStatusValue" ;
+    dct:abstract "enumeration" ;
+    dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "http://localhost:9090/register/build-local/generateddocs/markdown/bbr/template/LegalStatusValue/index.md" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "http://localhost:9090/register/build-local/generateddocs/json-full/bbr/template/LegalStatusValue/index.json" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "http://localhost:9090/register/build-local/generateddocs/slate-build/bbr/template/LegalStatusValue/" ] ;
+    dct:hasVersion "0.1" ;
+    dct:modified "2024-03-05"^^xsd:date ;
+    dct:source <https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary> ;
+    skos:inScheme <http://localhost:9090/register/> ;
+    dcat:keyword "administrative boundary",
+        "administrative units",
+        "inspire",
+        "legal statusValue" ;
+    bblocks:hasSchema <http://localhost:9090/register/build-local/annotated/bbr/template/LegalStatusValue/schema.json>,
+        <http://localhost:9090/register/build-local/annotated/bbr/template/LegalStatusValue/schema.yaml> ;
+    bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> .
+
+<http://localhost:9090/register/ogc.bbr.template.AdministrativeBoundary> a skos:Concept,
+        dcat:Dataset,
+        bblocks:Schema ;
+    rdfs:label "AdministrativeBoundary" ;
+    dct:abstract "Defines a specific interoperability profile of the AdministrativeBoundary dataset with the Inspire data model" ;
+    dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "http://localhost:9090/register/build-local/generateddocs/markdown/bbr/template/AdministrativeBoundary/index.md" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "http://localhost:9090/register/build-local/generateddocs/json-full/bbr/template/AdministrativeBoundary/index.json" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "http://localhost:9090/register/build-local/generateddocs/slate-build/bbr/template/AdministrativeBoundary/" ] ;
+    dct:hasVersion "0.1" ;
+    dct:modified "2024-03-04"^^xsd:date ;
+    dct:source <https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary> ;
+    skos:inScheme <http://localhost:9090/register/> ;
+    dcat:keyword "OGC-API",
+        "administrative boundary",
+        "administrative units",
+        "inspire" ;
+    bblocks:dependsOn <http://localhost:9090/register/ogc.bbr.template.TechnicalStatusValue> ;
+    bblocks:hasSchema <http://localhost:9090/register/build-local/annotated/bbr/template/AdministrativeBoundary/schema.json>,
+        <http://localhost:9090/register/build-local/annotated/bbr/template/AdministrativeBoundary/schema.yaml> ;
+    bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> .
+
+<http://localhost:9090/register/ogc.bbr.template.TechnicalStatusValue> a skos:Concept,
+        dcat:Dataset,
+        bblocks:Schema ;
+    rdfs:label "TechnicalStatusValue" ;
+    dct:abstract "enumeration" ;
+    dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy "http://localhost:9090/register/build-local/generateddocs/json-full/bbr/template/TechnicalStatusValue/index.json" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "http://localhost:9090/register/build-local/generateddocs/slate-build/bbr/template/TechnicalStatusValue/" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "http://localhost:9090/register/build-local/generateddocs/markdown/bbr/template/TechnicalStatusValue/index.md" ] ;
+    dct:hasVersion "0.1" ;
+    dct:modified "2024-03-05"^^xsd:date ;
+    dct:source <https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary> ;
+    skos:inScheme <http://localhost:9090/register/> ;
+    dcat:keyword "administrativeboundary",
+        "administrativeunits",
+        "inspire",
+        "technicalstatusValue" ;
+    bblocks:hasSchema <http://localhost:9090/register/build-local/annotated/bbr/template/TechnicalStatusValue/schema.json>,
+        <http://localhost:9090/register/build-local/annotated/bbr/template/TechnicalStatusValue/schema.yaml> ;
+    bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> .
+
+<https://docs.ogc.org/is/17-069r3/17-069r3.html#_response_7> rdfs:label "OGC API - Features, Part 1, 7.16.2: Feature Response" .
+
+<https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary> rdfs:label "INSPIRE registry" .
+
+<http://localhost:9090/register/> a skos:ConceptScheme,
+        dcat:Catalog ;
+    rdfs:label "Building Blocks - OGC API Profile- Administrative Borders of Catalonia" ;
+    dct:abstract """This document details the process of creating a specific profile of the Open Geospatial Consortium (OGC) API to manage and serve geospatial data related to the Administrative Borders of Catalonia. The goal is to provide a standardized and efficient interface for accessing this data through web applications and geospatial services.
+ 
+[AdministrativeBoundary](https://geoserveis.ide.cat/servei/catalunya/inspire/ogc/features/collections/inspire:AU.AdministrativeBoundary/).
+""" ;
+    dct:description """AdministrativeBoundary: In the INSPIRE framework (Infrastructure for Spatial Information in the European Community), "Administrative Boundary" refers to a geographical entity that defines the limits of administrative areas. INSPIRE is a law in the European Union. It aims to create a system for sharing spatial information in Europe to help with environmental decision-making. It makes sure spatial information across Europe is standardized and easy to access.
+""" ;
+    skos:prefLabel "Building Blocks - OGC API Profile- Administrative Borders of Catalonia" ;
+    bblocks:hasValidationReport <http://localhost:9090/register/build-local/tests/report.html> ;
+    bblocks:imports <https://opengeospatial.github.io/bblocks/register.json> .
+
+[] a prov:Activity ;
+    prov:endedAtTime "2024-03-05T11:43:36.498446"^^xsd:dateTime ;
+    prov:startedAtTime "2024-03-05T11:43:36.424860"^^xsd:dateTime ;
+    prov:used [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:6b604a5d866577c711c80f33a725ae01059e9fd5" ;
+            rdfs:seeAlso <http://localhost:9090/register/build-local/register.json> ],
+        [ a prov:Entity ;
+            dct:format "application/yaml" ;
+            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;
+    prov:wasAssociatedWith [ a prov:Agent,
+                schema:SoftwareApplication ;
+            rdfs:label "OGC-NA tools" ;
+            dct:hasVersion "0.3.38" ;
+            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] .
+

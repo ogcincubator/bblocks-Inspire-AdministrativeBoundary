@@ -1,0 +1,6 @@
+
+- title: Example of AdministrativeHierarchyLevel Codelist
+  base-uri: http://example.com/features/
+  snippets:
+    - language: json
+      ref: examples/AdministrativeHierarchyLevel.json

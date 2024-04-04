@@ -1,0 +1,10 @@
+Validation report for ogc.bbr.template.AdministrativeHierarchyLevel - AdministrativeHierarchyLevel
+Generated 2024-03-05T11:43:36.164964+00:00
+=== Files ===
+Using example_1_1.json from examples
+=== End Files ===
+
+=== JSON Schema ===
+Validation passed
+=== End JSON Schema ===
+

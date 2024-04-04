@@ -1,0 +1,83 @@
+{
+  "x-defs": {
+    "ogc.bbr.template.AdministrativeBoundary": {
+      "description": "A line of demarcation between administrative units.",
+      "type": "object",
+      "properties": {
+        "localid": {
+          "type": "string",
+          "pattern": "^ID\\.AU\\.linia\\.\\d+$"
+        },
+        "country": {
+          "type": "string",
+          "enum": [
+            "ES"
+          ]
+        },
+        "allOf": {
+          "$ref": "http://localhost:9090/register/build-local/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.json#/x-defs/localhost:9090_register_build-local_annotated_bbr_template_TechnicalStatusValue_schema.json"
+        },
+        "administrativeunit1": {
+          "type": "string"
+        },
+        "administrativeunit2": {
+          "type": "string"
+        },
+        "beginlifespanversion": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "namespace": {
+          "type": "string"
+        },
+        "versionid": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "localid",
+        "country",
+        "nationallevel",
+        "legalstatus",
+        "technicalstatus",
+        "administrativeunit1",
+        "administrativeunit2",
+        "beginlifespanversion",
+        "namespace",
+        "versionid"
+      ],
+      "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
+      "x-schema-source": "http://localhost:9090/register/build-local/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.json"
+    },
+    "localhost:9090_register_build-local_annotated_bbr_template_TechnicalStatusValue_schema.json": {
+      "description": "Schemas for TechnicalStatusValue",
+      "type": "object",
+      "properties": {
+        "technicalstatus": {
+          "description": "Description of the technical status of administrative boundaries.",
+          "type": "string",
+          "oneOf": [
+            {
+              "const": "edgeMatched",
+              "descripcion": "edgeMatched"
+            },
+            {
+              "const": "notEdgeMatched",
+              "descripcion": "notEdgeMatched"
+            }
+          ]
+        }
+      },
+      "required": [
+        "technicalstatus"
+      ],
+      "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
+      "x-schema-source": "http://localhost:9090/register/build-local/annotated/bbr/template/TechnicalStatusValue/schema.json"
+    }
+  },
+  "allOf": [
+    {
+      "$ref": "http://localhost:9090/register/build-local/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.json#/x-defs/ogc.bbr.template.AdministrativeBoundary"
+    }
+  ]
+}

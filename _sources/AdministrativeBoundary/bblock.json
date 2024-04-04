@@ -1,0 +1,22 @@
+{
+  "$schema": "metaschema.yaml",
+  "name": "AdministrativeBoundary",
+  "abstract":  "Defines a specific interoperability profile of the AdministrativeBoundary dataset with the Inspire data model",
+  "status": "under-development",
+  "dateTimeAddition": "2023-04-05T00:00:00Z",
+  "itemClass": "schema",
+  "register": "ogc-building-block-register",
+  "version": "0.1",
+  "dateOfLastChange": "2024-02-16",
+  "link": "https://github.com/MayteToscano/bblock-template/AdministrativeBoundary",
+  "sources": [
+    {
+      "title": "INSPIRE registry",
+      "link": "https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary"
+    }
+  ],
+  "maturity": "Experimental",
+  "scope": "unstable",
+  "tags": ["administrative boundary","administrative units", "inspire", "OGC-API"]
+}
+ 

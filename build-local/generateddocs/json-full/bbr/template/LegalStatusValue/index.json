@@ -1,0 +1,56 @@
+
+
+{
+  "itemIdentifier": "ogc.bbr.template.LegalStatusValue",
+  "$schema": "metaschema.yaml",
+  "name": "LegalStatusValue",
+  "abstract": "enumeration",
+  "status": "under-development",
+  "dateTimeAddition": "2023-04-05T00:00:00Z",
+  "itemClass": "schema",
+  "register": "ogc-building-block-register",
+  "version": "0.1",
+  "dateOfLastChange": "2024-03-05",
+  "link": "https://inspire.ec.europa.eu/enumeration/LegalStatusValue",
+  "sources": [
+    {
+      "title": "INSPIRE registry",
+      "link": "https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary"
+    }
+  ],
+  "maturity": "Experimental",
+  "scope": "unstable",
+  "tags": [
+    "administrative boundary",
+    "administrative units",
+    "inspire",
+    "legal statusValue"
+  ],
+  "shaclRules": {},
+  "schema": {
+    "application/yaml": "http://localhost:9090/register/build-local/annotated/bbr/template/LegalStatusValue/schema.yaml",
+    "application/json": "http://localhost:9090/register/build-local/annotated/bbr/template/LegalStatusValue/schema.json"
+  },
+  "sourceSchema": "http://localhost:9090/register/_sources/LegalStatusValue/schema.yaml",
+  "sourceFiles": "http://localhost:9090/register/_sources/LegalStatusValue/",
+  "validationPassed": true,
+  "testOutputs": "https://github.com/MayteToscano/bblock-template/build-local/tests/bbr/template/LegalStatusValue/",
+  "description": "\n## Enumeration LegalStatusValue\nDescription of the legal status of administrative boundaries.\n## Values LegalStatusValue\n| Status      | Description                                                                                   |\n|-------------|-----------------------------------------------------------------------------------------------|\n| agreed      | The edge-matched boundary has been agreed between neighbouring administrative units and is stable now |\n| notAgreed   | The edge-matched boundary has not yet been agreed between neighbouring administrative units and could be changed |\n",
+  "examples": [
+    {
+      "title": "Example of LegalStatusValue Enumeration",
+      "base-uri": "http://example.com/features/",
+      "snippets": [
+        {
+          "language": "json",
+          "ref": "examples/LegalStatusValue.json",
+          "code": "{\n  \"legalstatus\":  \"agreed\"\n}\n\n",
+          "url": "http://localhost:9090/register/build-local/tests/bbr/template/LegalStatusValue/example_1_1.json"
+        }
+      ]
+    }
+  ],
+  "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\ndescription: Schemas for LegalStatusValue\ntype: object\nproperties:\n  legalstatus:\n    description: Description of the legal status of administrative boundaries.\n    type: string\n    oneOf:\n    - const: agreed\n      descripcion: agreed\n    - const: notAgreed\n      descripcion: notAgreed\nrequired:\n- legalstatus\n",
+  "gitRepository": "https://github.com/MayteToscano/bblock-template",
+  "gitPath": "_sources/LegalStatusValue"
+}

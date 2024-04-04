@@ -1,0 +1,26 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+description: Schemas for AdministrativeBoundary
+type: object
+properties:
+  nationallevel:
+    description: Levels of administration in the national administrative hierarchy.
+      This code list reflects the level in the hierarchical pyramid of the administrative
+      structures, which is based on geometric aggregation of territories and does
+      not necessarily describe the subordination between the related administrative
+      authorities.
+    type: string
+    oneOf:
+    - const: 1st order
+      descripcion: 1st order
+    - const: 2nd order
+      descripcion: 2nd order
+    - const: 3rd order
+      descripcion: 3rd order
+    - const: 4th order
+      descripcion: 4th order
+    - const: 5th order
+      descripcion: 5th order
+    - const: 6th order
+      descripcion: 2nd order
+required:
+- nationallevel

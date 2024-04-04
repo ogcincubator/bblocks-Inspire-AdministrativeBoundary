@@ -1,0 +1,19 @@
+x-defs:
+  ogc.bbr.template.LegalStatusValue:
+    description: Schemas for LegalStatusValue
+    type: object
+    properties:
+      legalstatus:
+        description: Description of the legal status of administrative boundaries.
+        type: string
+        oneOf:
+        - const: agreed
+          descripcion: agreed
+        - const: notAgreed
+          descripcion: notAgreed
+    required:
+    - legalstatus
+    x-schema-version: https://json-schema.org/draft/2020-12/schema
+    x-schema-source: http://localhost:9090/register/build-local/annotated/bbr/template/LegalStatusValue/schema-oas3.0.yaml
+allOf:
+- $ref: http://localhost:9090/register/build-local/annotated/bbr/template/LegalStatusValue/schema-oas3.0.yaml#/x-defs/ogc.bbr.template.LegalStatusValue

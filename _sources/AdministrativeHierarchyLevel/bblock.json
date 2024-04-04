@@ -1,0 +1,21 @@
+{
+  "$schema": "metaschema.yaml",
+  "name": "AdministrativeHierarchyLevel",
+  "abstract":  "codelist",
+  "status": "under-development",
+  "dateTimeAddition": "2023-04-05T00:00:00Z",
+  "itemClass": "schema",
+  "register": "ogc-building-block-register",
+  "version": "0.1",
+  "dateOfLastChange": "2024-02-16",
+  "link": "https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel",
+  "sources": [
+    {
+      "title": "INSPIRE registry",
+      "link": "https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary"
+    }
+  ],
+"maturity": "Experimental",
+"scope": "unstable",
+"tags": ["administrative boundary","administrative units", "inspire", "administrative hierarchy level"]
+}

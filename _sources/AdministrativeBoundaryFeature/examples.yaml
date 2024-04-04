@@ -1,0 +1,8 @@
+- title:  Example of AdministrativeBoundary Feature
+  comment:
+    This examples shows how to define a AdministrativeBoundary with Inspire Model.
+  
+  base-uri: http://example.com/features/
+  snippets:
+    - language: json
+      ref: examples/AdministrativeBoundaryFeature.json

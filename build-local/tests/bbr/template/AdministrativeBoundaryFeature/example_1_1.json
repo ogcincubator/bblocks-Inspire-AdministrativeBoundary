@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "mynamespace": "http://example.org/ns1/"
+  },
+  "id": "AU.AdministrativeBoundary.ID.AU.linia.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -111.67183507997295,
+        40.056709946862874
+      ],
+      [
+        -111.71,
+        40.156709946862875
+      ]
+    ]
+  },
+  "properties": {
+    "localid": "ID.AU.linia.1",
+    "country": "ES",
+    "nationallevel": "4th order",
+    "legalstatus": "agreed",
+    "technicalstatus": "edgeMatched",
+    "administrativeunit1": "080018",
+    "administrativeunit2": "080543",
+    "beginlifespanversion": "2017-07-26",
+    "namespace": "Catalunya.AU",
+    "versionid": "20230511"
+  }
+}
