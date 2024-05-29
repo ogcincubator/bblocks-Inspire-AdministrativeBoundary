@@ -1,6 +1,6 @@
 {
   "x-defs": {
-    "ogc.bbr.template.AdministrativeBoundaryFeature": {
+    "_github_workspace_build_annotated_bbr_template_AdministrativeBoundaryFeature_schema.json": {
       "description": "Example of a simple GeoJSON Feature AdministrativeBoundary with Inspire Model",
       "$defs": {
         "MyFeature": {
@@ -20,7 +20,7 @@
       },
       "anyOf": [
         {
-          "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/ogc.bbr.template.AdministrativeBoundaryFeature/$defs/MyFeature"
+          "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundaryFeature_schema.json/$defs/MyFeature"
         }
       ],
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
@@ -793,7 +793,7 @@
   },
   "allOf": [
     {
-      "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/ogc.bbr.template.AdministrativeBoundaryFeature"
+      "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundaryFeature_schema.json"
     }
   ]
 }

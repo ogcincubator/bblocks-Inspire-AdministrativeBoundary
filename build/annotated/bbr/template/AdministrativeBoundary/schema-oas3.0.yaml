@@ -1,5 +1,5 @@
 x-defs:
-  ogc.bbr.template.AdministrativeBoundary:
+  _github_workspace_build_annotated_bbr_template_AdministrativeBoundary_schema.yaml:
     description: A line of demarcation between administrative units.
     type: object
     properties:
@@ -55,4 +55,4 @@ x-defs:
     x-schema-version: https://json-schema.org/draft/2020-12/schema
     x-schema-source: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema.yaml
 allOf:
-- $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.yaml#/x-defs/ogc.bbr.template.AdministrativeBoundary
+- $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundary_schema.yaml

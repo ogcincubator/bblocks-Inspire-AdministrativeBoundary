@@ -1,5 +1,5 @@
 x-defs:
-  ogc.bbr.template.TechnicalStatusValue:
+  _github_workspace_build_annotated_bbr_template_TechnicalStatusValue_schema.yaml:
     description: Schemas for TechnicalStatusValue
     type: object
     properties:
@@ -18,4 +18,4 @@ x-defs:
     x-schema-version: https://json-schema.org/draft/2020-12/schema
     x-schema-source: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema-oas3.0.yaml
 allOf:
-- $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema-oas3.0.yaml#/x-defs/ogc.bbr.template.TechnicalStatusValue
+- $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_bbr_template_TechnicalStatusValue_schema.yaml

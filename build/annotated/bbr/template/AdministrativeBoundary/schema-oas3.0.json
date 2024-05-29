@@ -1,6 +1,6 @@
 {
   "x-defs": {
-    "ogc.bbr.template.AdministrativeBoundary": {
+    "_github_workspace_build_annotated_bbr_template_AdministrativeBoundary_schema.json": {
       "description": "A line of demarcation between administrative units.",
       "type": "object",
       "properties": {
@@ -77,7 +77,7 @@
   },
   "allOf": [
     {
-      "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.json#/x-defs/ogc.bbr.template.AdministrativeBoundary"
+      "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundary_schema.json"
     }
   ]
 }

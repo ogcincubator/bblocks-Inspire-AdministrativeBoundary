@@ -1,6 +1,6 @@
 {
   "x-defs": {
-    "ogc.bbr.template.LegalStatusValue": {
+    "_github_workspace_build_annotated_bbr_template_LegalStatusValue_schema.json": {
       "description": "Schemas for LegalStatusValue",
       "type": "object",
       "properties": {
@@ -28,7 +28,7 @@
   },
   "allOf": [
     {
-      "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/LegalStatusValue/schema-oas3.0.json#/x-defs/ogc.bbr.template.LegalStatusValue"
+      "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/LegalStatusValue/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_bbr_template_LegalStatusValue_schema.json"
     }
   ]
 }

@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.template.TechnicalStatusValue - TechnicalStatusValue
-Generated 2024-04-04T10:10:35.354959+00:00
+Generated 2024-05-29T07:22:46.074335+00:00
 === Files ===
 Using example_1_1.json from examples
 === End Files ===

@@ -1,5 +1,5 @@
 x-defs:
-  ogc.bbr.template.AdministrativeBoundaryFeature:
+  _github_workspace_build_annotated_bbr_template_AdministrativeBoundaryFeature_schema.yaml:
     description: Example of a simple GeoJSON Feature AdministrativeBoundary with Inspire
       Model
     $defs:
@@ -10,7 +10,7 @@ x-defs:
             properties:
               $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/raw.githubusercontent.com_ogcincubator_bblocks-Inspire-AdministrativeBoundary_main_build_annotated_bbr_template_AdministrativeBoundary_schema.yaml
     anyOf:
-    - $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/ogc.bbr.template.AdministrativeBoundaryFeature/$defs/MyFeature
+    - $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundaryFeature_schema.yaml/$defs/MyFeature
     x-schema-version: https://json-schema.org/draft/2020-12/schema
     x-schema-source: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml
   ogc.geo.features.feature:
@@ -556,4 +556,4 @@ x-defs:
     x-schema-version: https://json-schema.org/draft/2020-12/schema
     x-schema-source: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema.yaml
 allOf:
-- $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/ogc.bbr.template.AdministrativeBoundaryFeature
+- $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundaryFeature_schema.yaml
