@@ -68,8 +68,8 @@ Administrative Boundary is defined like a line of demarcation between administra
 
 <blockquote class="lang-specific json">
   <p class="example-links">
-    <a target="_blank" href="https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/tests/bbr/template/AdministrativeBoundary/example_1_1.json">Open in new window</a>
-    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fogcincubator%2Fbblocks-Inspire-AdministrativeBoundary%2Fmain%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2FAdministrativeBoundary%2Fexample_1_1.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
+    <a target="_blank" href="https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/tests/bbr/template/AdministrativeBoundary/example_1_1.json">Open in new window</a>
+    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Fogcincubator.github.io%2Fbblocks-Inspire-AdministrativeBoundary%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2FAdministrativeBoundary%2Fexample_1_1.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
 </blockquote>
 
 
@@ -89,7 +89,7 @@ properties:
     enum:
     - ES
   allOf:
-    $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema.yaml
+    $ref: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/TechnicalStatusValue/schema.yaml
   administrativeunit1:
     type: string
   administrativeunit2:
@@ -115,12 +115,12 @@ required:
 
 ```
 
-> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fogcincubator%2Fbblocks-Inspire-AdministrativeBoundary%2Fmain%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2FAdministrativeBoundary%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
+> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Fogcincubator.github.io%2Fbblocks-Inspire-AdministrativeBoundary%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2FAdministrativeBoundary%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
 
 Links to the schema:
 
-* YAML version: <a href="https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml" target="_blank">https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml</a>
-* JSON version: <a href="https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema.json" target="_blank">https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema.json</a>
+* YAML version: <a href="https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml" target="_blank">https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml</a>
+* JSON version: <a href="https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema.json" target="_blank">https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema.json</a>
 
 # References
 

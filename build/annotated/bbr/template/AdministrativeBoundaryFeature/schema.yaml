@@ -7,6 +7,6 @@ $defs:
     - $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml
     - properties:
         properties:
-          $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml
+          $ref: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml
 anyOf:
 - $ref: '#/$defs/MyFeature'

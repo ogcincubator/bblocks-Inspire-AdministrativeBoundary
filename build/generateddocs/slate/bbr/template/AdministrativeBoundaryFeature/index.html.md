@@ -95,8 +95,8 @@ Administrative Boundary is defined like a line of demarcation between administra
 
 <blockquote class="lang-specific json">
   <p class="example-links">
-    <a target="_blank" href="https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/tests/bbr/template/AdministrativeBoundaryFeature/example_1_1.json">Open in new window</a>
-    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fogcincubator%2Fbblocks-Inspire-AdministrativeBoundary%2Fmain%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2FAdministrativeBoundaryFeature%2Fexample_1_1.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
+    <a target="_blank" href="https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/tests/bbr/template/AdministrativeBoundaryFeature/example_1_1.json">Open in new window</a>
+    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Fogcincubator.github.io%2Fbblocks-Inspire-AdministrativeBoundary%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2FAdministrativeBoundaryFeature%2Fexample_1_1.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
 </blockquote>
 
 
@@ -105,7 +105,7 @@ Administrative Boundary is defined like a line of demarcation between administra
 ```jsonld
 {
   "@context": [
-    "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/context.jsonld",
+    "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/context.jsonld",
     {
       "mynamespace": "http://example.org/ns1/"
     }
@@ -142,8 +142,8 @@ Administrative Boundary is defined like a line of demarcation between administra
 
 <blockquote class="lang-specific jsonld">
   <p class="example-links">
-    <a target="_blank" href="https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/tests/bbr/template/AdministrativeBoundaryFeature/example_1_1.jsonld">Open in new window</a>
-    <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fogcincubator%2Fbblocks-Inspire-AdministrativeBoundary%2Fmain%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2FAdministrativeBoundaryFeature%2Fexample_1_1.jsonld">View on JSON-LD Playground</a>
+    <a target="_blank" href="https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/tests/bbr/template/AdministrativeBoundaryFeature/example_1_1.jsonld">Open in new window</a>
+    <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fogcincubator.github.io%2Fbblocks-Inspire-AdministrativeBoundary%2Fbuild%2Ftests%2Fbbr%2Ftemplate%2FAdministrativeBoundaryFeature%2Fexample_1_1.jsonld">View on JSON-LD Playground</a>
 </blockquote>
 
 
@@ -163,7 +163,7 @@ Administrative Boundary is defined like a line of demarcation between administra
 
 <blockquote class="lang-specific turtle">
   <p class="example-links">
-    <a target="_blank" href="https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/tests/bbr/template/AdministrativeBoundaryFeature/example_1_1.ttl">Open in new window</a>
+    <a target="_blank" href="https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/tests/bbr/template/AdministrativeBoundaryFeature/example_1_1.ttl">Open in new window</a>
 </blockquote>
 
 
@@ -180,18 +180,18 @@ $defs:
     - $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml
     - properties:
         properties:
-          $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml
+          $ref: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml
 anyOf:
 - $ref: '#/$defs/MyFeature'
 
 ```
 
-> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fogcincubator%2Fbblocks-Inspire-AdministrativeBoundary%2Fmain%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2FAdministrativeBoundaryFeature%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
+> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Fogcincubator.github.io%2Fbblocks-Inspire-AdministrativeBoundary%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2FAdministrativeBoundaryFeature%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
 
 Links to the schema:
 
-* YAML version: <a href="https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema.yaml" target="_blank">https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema.yaml</a>
-* JSON version: <a href="https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema.json" target="_blank">https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema.json</a>
+* YAML version: <a href="https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema.yaml" target="_blank">https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema.yaml</a>
+* JSON version: <a href="https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema.json" target="_blank">https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema.json</a>
 
 
 # JSON-LD Context
@@ -257,10 +257,10 @@ Links to the schema:
 }
 ```
 
-> <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fogcincubator%2Fbblocks-Inspire-AdministrativeBoundary%2Fmain%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2FAdministrativeBoundaryFeature%2Fcontext.jsonld">View on JSON-LD Playground</a>
+> <a target="_blank" href="https://json-ld.org/playground/#json-ld=https%3A%2F%2Fogcincubator.github.io%2Fbblocks-Inspire-AdministrativeBoundary%2Fbuild%2Fannotated%2Fbbr%2Ftemplate%2FAdministrativeBoundaryFeature%2Fcontext.jsonld">View on JSON-LD Playground</a>
 
 You can find the full JSON-LD context here:
-<a href="https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/context.jsonld" target="_blank">https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/context.jsonld</a>
+<a href="https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/context.jsonld" target="_blank">https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/context.jsonld</a>
 
 # References
 

@@ -6,12 +6,12 @@
         "MyFeature": {
           "allOf": [
             {
-              "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/ogc.geo.features.feature"
+              "$ref": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/ogc.geo.features.feature"
             },
             {
               "properties": {
                 "properties": {
-                  "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/raw.githubusercontent.com_ogcincubator_bblocks-Inspire-AdministrativeBoundary_main_build_annotated_bbr_template_AdministrativeBoundary_schema.json"
+                  "$ref": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/ogcincubator.github.io_bblocks-Inspire-AdministrativeBoundary_build_annotated_bbr_template_AdministrativeBoundary_schema.json"
                 }
               }
             }
@@ -20,27 +20,27 @@
       },
       "anyOf": [
         {
-          "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundaryFeature_schema.json/$defs/MyFeature"
+          "$ref": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundaryFeature_schema.json/$defs/MyFeature"
         }
       ],
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
-      "x-schema-source": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json"
+      "x-schema-source": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json"
     },
     "ogc.geo.features.feature": {
       "allOf": [
         {
-          "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/ogc.geo.common.data_types.geojson"
+          "$ref": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/ogc.geo.common.data_types.geojson"
         },
         {
           "type": "object",
           "properties": {
             "bbox": {
-              "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/ogc.geo.common.data_types.bounding_box"
+              "$ref": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/ogc.geo.common.data_types.bounding_box"
             },
             "links": {
               "type": "array",
               "items": {
-                "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/ogc.ogc-utils.json-link"
+                "$ref": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/ogc.ogc-utils.json-link"
               },
               "x-jsonld-id": "http://www.w3.org/2000/01/rdf-schema#seeAlso"
             },
@@ -63,7 +63,7 @@
       },
       "x-schema-source": "https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.json"
     },
-    "raw.githubusercontent.com_ogcincubator_bblocks-Inspire-AdministrativeBoundary_main_build_annotated_bbr_template_AdministrativeBoundary_schema.json": {
+    "ogcincubator.github.io_bblocks-Inspire-AdministrativeBoundary_build_annotated_bbr_template_AdministrativeBoundary_schema.json": {
       "description": "A line of demarcation between administrative units.",
       "type": "object",
       "properties": {
@@ -78,7 +78,7 @@
           ]
         },
         "allOf": {
-          "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/raw.githubusercontent.com_ogcincubator_bblocks-Inspire-AdministrativeBoundary_main_build_annotated_bbr_template_TechnicalStatusValue_schema.yaml"
+          "$ref": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/ogcincubator.github.io_bblocks-Inspire-AdministrativeBoundary_build_annotated_bbr_template_TechnicalStatusValue_schema.yaml"
         },
         "administrativeunit1": {
           "type": "string"
@@ -110,7 +110,7 @@
         "versionid"
       ],
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
-      "x-schema-source": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema.json"
+      "x-schema-source": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema.json"
     },
     "ogc.geo.common.data_types.geojson": {
       "title": "GeoJSON Feature",
@@ -765,7 +765,7 @@
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
       "x-schema-source": "https://opengeospatial.github.io/bblocks/annotated-schemas/ogc-utils/json-link/schema.json"
     },
-    "raw.githubusercontent.com_ogcincubator_bblocks-Inspire-AdministrativeBoundary_main_build_annotated_bbr_template_TechnicalStatusValue_schema.yaml": {
+    "ogcincubator.github.io_bblocks-Inspire-AdministrativeBoundary_build_annotated_bbr_template_TechnicalStatusValue_schema.yaml": {
       "description": "Schemas for TechnicalStatusValue",
       "type": "object",
       "properties": {
@@ -788,12 +788,12 @@
         "technicalstatus"
       ],
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
-      "x-schema-source": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema.yaml"
+      "x-schema-source": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/TechnicalStatusValue/schema.yaml"
     }
   },
   "allOf": [
     {
-      "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundaryFeature_schema.json"
+      "$ref": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundaryFeature_schema.json"
     }
   ]
 }

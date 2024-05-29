@@ -14,7 +14,7 @@
       ]
     },
     "allOf": {
-      "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema.json"
+      "$ref": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/TechnicalStatusValue/schema.json"
     },
     "administrativeunit1": {
       "type": "string"

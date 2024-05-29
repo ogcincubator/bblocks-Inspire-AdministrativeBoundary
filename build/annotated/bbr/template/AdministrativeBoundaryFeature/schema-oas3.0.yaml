@@ -5,25 +5,25 @@ x-defs:
     $defs:
       MyFeature:
         allOf:
-        - $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/ogc.geo.features.feature
+        - $ref: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/ogc.geo.features.feature
         - properties:
             properties:
-              $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/raw.githubusercontent.com_ogcincubator_bblocks-Inspire-AdministrativeBoundary_main_build_annotated_bbr_template_AdministrativeBoundary_schema.yaml
+              $ref: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/ogcincubator.github.io_bblocks-Inspire-AdministrativeBoundary_build_annotated_bbr_template_AdministrativeBoundary_schema.yaml
     anyOf:
-    - $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundaryFeature_schema.yaml/$defs/MyFeature
+    - $ref: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundaryFeature_schema.yaml/$defs/MyFeature
     x-schema-version: https://json-schema.org/draft/2020-12/schema
-    x-schema-source: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml
+    x-schema-source: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml
   ogc.geo.features.feature:
     allOf:
-    - $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/ogc.geo.common.data_types.geojson
+    - $ref: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/ogc.geo.common.data_types.geojson
     - type: object
       properties:
         bbox:
-          $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/ogc.geo.common.data_types.bounding_box
+          $ref: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/ogc.geo.common.data_types.bounding_box
         links:
           type: array
           items:
-            $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/ogc.ogc-utils.json-link
+            $ref: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/ogc.ogc-utils.json-link
           x-jsonld-id: http://www.w3.org/2000/01/rdf-schema#seeAlso
         type:
           const: Feature
@@ -36,8 +36,8 @@ x-defs:
     x-jsonld-prefixes:
       rdfs: http://www.w3.org/2000/01/rdf-schema#
     x-schema-source: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml
-  ? raw.githubusercontent.com_ogcincubator_bblocks-Inspire-AdministrativeBoundary_main_build_annotated_bbr_template_AdministrativeBoundary_schema.yaml
-  : description: A line of demarcation between administrative units.
+  ogcincubator.github.io_bblocks-Inspire-AdministrativeBoundary_build_annotated_bbr_template_AdministrativeBoundary_schema.yaml:
+    description: A line of demarcation between administrative units.
     type: object
     properties:
       localid:
@@ -48,7 +48,7 @@ x-defs:
         enum:
         - ES
       allOf:
-        $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/raw.githubusercontent.com_ogcincubator_bblocks-Inspire-AdministrativeBoundary_main_build_annotated_bbr_template_TechnicalStatusValue_schema.yaml
+        $ref: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/ogcincubator.github.io_bblocks-Inspire-AdministrativeBoundary_build_annotated_bbr_template_TechnicalStatusValue_schema.yaml
       administrativeunit1:
         type: string
       administrativeunit2:
@@ -72,7 +72,7 @@ x-defs:
     - namespace
     - versionid
     x-schema-version: https://json-schema.org/draft/2020-12/schema
-    x-schema-source: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml
+    x-schema-source: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml
   ogc.geo.common.data_types.geojson:
     title: GeoJSON Feature
     type: object
@@ -537,8 +537,8 @@ x-defs:
       dct: http://purl.org/dc/terms/
     x-schema-version: https://json-schema.org/draft/2020-12/schema
     x-schema-source: https://opengeospatial.github.io/bblocks/annotated-schemas/ogc-utils/json-link/schema.yaml
-  ? raw.githubusercontent.com_ogcincubator_bblocks-Inspire-AdministrativeBoundary_main_build_annotated_bbr_template_TechnicalStatusValue_schema.yaml
-  : description: Schemas for TechnicalStatusValue
+  ogcincubator.github.io_bblocks-Inspire-AdministrativeBoundary_build_annotated_bbr_template_TechnicalStatusValue_schema.yaml:
+    description: Schemas for TechnicalStatusValue
     type: object
     properties:
       technicalstatus:
@@ -554,6 +554,6 @@ x-defs:
     required:
     - technicalstatus
     x-schema-version: https://json-schema.org/draft/2020-12/schema
-    x-schema-source: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema.yaml
+    x-schema-source: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/TechnicalStatusValue/schema.yaml
 allOf:
-- $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundaryFeature_schema.yaml
+- $ref: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundaryFeature_schema.yaml

@@ -17,5 +17,5 @@
   "properties": {
     "notMyProp": "Mandatory property not present example"
   },
-  "@context": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/context.jsonld"
+  "@context": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/context.jsonld"
 }

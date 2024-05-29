@@ -9,7 +9,7 @@
   "itemClass": "schema",
   "register": "ogc-building-block-examples",
   "version": "1.0",
-  "dateOfLastChange": "2024-04-04",
+  "dateOfLastChange": "2024-05-29",
   "sources": [
     {
       "title": "OGC API - Features, Part 1, 7.16.2: Feature Response",
@@ -19,8 +19,8 @@
   "maturity": "development",
   "scope": "unstable",
   "dependsOn": [
-    "ogc.geo.features.feature",
-    "ogc.bbr.template.AdministrativeBoundary"
+    "ogc.bbr.template.AdministrativeBoundary",
+    "ogc.geo.features.feature"
   ],
   "tags": [
     "feature",
@@ -33,12 +33,12 @@
   "highlighted": true,
   "shaclRules": {},
   "schema": {
-    "application/yaml": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema.yaml",
-    "application/json": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema.json"
+    "application/yaml": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema.yaml",
+    "application/json": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/schema.json"
   },
-  "sourceSchema": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/AdministrativeBoundaryFeature/schema.yaml",
-  "ldContext": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/context.jsonld",
-  "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/AdministrativeBoundaryFeature/",
+  "sourceSchema": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/_sources/AdministrativeBoundaryFeature/schema.yaml",
+  "ldContext": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/context.jsonld",
+  "sourceFiles": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/_sources/AdministrativeBoundaryFeature/",
   "validationPassed": true,
   "testOutputs": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/blob/main/build/tests/bbr/template/AdministrativeBoundaryFeature/",
   "description": "\n## AdministrativeBoundary Inspire Data Model Profile for OGC API\n\nThis specification defines the specific requirements of the AdministrativeBoundary Information Model.\nAdministrative Boundary is defined like a line of demarcation between administrative units.\n\n- [INSPIRE Administrative Boundary](https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary)\n- [OGC-API IDE CATALONIA AdministrativeBoundary](https://geoserveis.ide.cat/servei/catalunya/inspire/ogc/features/collections/inspire:AU.AdministrativeBoundary/)\n\n![Model](./assets/model.png)\n\n## Key features of this profile:\n- a schema for the AdministrativeBoundary element with the Inspire data model\n- a JSON-LD context for this result schema\n- JSON-LD context elements defining namespaces for the values",
@@ -52,22 +52,22 @@
           "language": "json",
           "ref": "examples/AdministrativeBoundaryFeature.json",
           "code": "\n{\n    \"@context\": {\n      \"mynamespace\": \"http://example.org/ns1/\"\n    },\n    \"id\": \"AU.AdministrativeBoundary.ID.AU.linia.1\",\n    \"type\": \"Feature\",\n    \"geometry\": {\n      \"type\": \"LineString\",\n      \"coordinates\": [\n        [\n          -111.67183507997295,\n          40.056709946862874\n        ],\n        [\n          -111.71,\n          40.156709946862874\n        ]\n      ]\n    },\n    \"properties\": {\n        \"localid\": \"ID.AU.linia.1\",\n        \"country\": \"ES\",\n        \"nationallevel\": \"4th order\",\n        \"legalstatus\": \"agreed\",\n        \"technicalstatus\": \"edgeMatched\",\n        \"administrativeunit1\": \"080018\",\n        \"administrativeunit2\": \"080543\",\n        \"beginlifespanversion\": \"2017-07-26\",\n        \"namespace\": \"Catalunya.AU\",\n        \"versionid\": \"20230511\"\n    }\n  }\n  ",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/tests/bbr/template/AdministrativeBoundaryFeature/example_1_1.json"
+          "url": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/tests/bbr/template/AdministrativeBoundaryFeature/example_1_1.json"
         },
         {
           "language": "jsonld",
-          "code": "{\n  \"@context\": [\n    \"https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/context.jsonld\",\n    {\n      \"mynamespace\": \"http://example.org/ns1/\"\n    }\n  ],\n  \"id\": \"AU.AdministrativeBoundary.ID.AU.linia.1\",\n  \"type\": \"Feature\",\n  \"geometry\": {\n    \"type\": \"LineString\",\n    \"coordinates\": [\n      [\n        -111.67183507997295,\n        40.056709946862874\n      ],\n      [\n        -111.71,\n        40.156709946862875\n      ]\n    ]\n  },\n  \"properties\": {\n    \"localid\": \"ID.AU.linia.1\",\n    \"country\": \"ES\",\n    \"nationallevel\": \"4th order\",\n    \"legalstatus\": \"agreed\",\n    \"technicalstatus\": \"edgeMatched\",\n    \"administrativeunit1\": \"080018\",\n    \"administrativeunit2\": \"080543\",\n    \"beginlifespanversion\": \"2017-07-26\",\n    \"namespace\": \"Catalunya.AU\",\n    \"versionid\": \"20230511\"\n  }\n}",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/tests/bbr/template/AdministrativeBoundaryFeature/example_1_1.jsonld"
+          "code": "{\n  \"@context\": [\n    \"https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/context.jsonld\",\n    {\n      \"mynamespace\": \"http://example.org/ns1/\"\n    }\n  ],\n  \"id\": \"AU.AdministrativeBoundary.ID.AU.linia.1\",\n  \"type\": \"Feature\",\n  \"geometry\": {\n    \"type\": \"LineString\",\n    \"coordinates\": [\n      [\n        -111.67183507997295,\n        40.056709946862874\n      ],\n      [\n        -111.71,\n        40.156709946862875\n      ]\n    ]\n  },\n  \"properties\": {\n    \"localid\": \"ID.AU.linia.1\",\n    \"country\": \"ES\",\n    \"nationallevel\": \"4th order\",\n    \"legalstatus\": \"agreed\",\n    \"technicalstatus\": \"edgeMatched\",\n    \"administrativeunit1\": \"080018\",\n    \"administrativeunit2\": \"080543\",\n    \"beginlifespanversion\": \"2017-07-26\",\n    \"namespace\": \"Catalunya.AU\",\n    \"versionid\": \"20230511\"\n  }\n}",
+          "url": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/tests/bbr/template/AdministrativeBoundaryFeature/example_1_1.jsonld"
         },
         {
           "language": "ttl",
           "code": "@prefix geojson: <https://purl.org/geojson/vocab#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://example.com/features/AU.AdministrativeBoundary.ID.AU.linia.1> a geojson:Feature ;\n    geojson:geometry [ a geojson:LineString ;\n            geojson:coordinates ( ( -1.116718e+02 4.005671e+01 ) ( -1.1171e+02 4.015671e+01 ) ) ] .\n\n",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/tests/bbr/template/AdministrativeBoundaryFeature/example_1_1.ttl"
+          "url": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/tests/bbr/template/AdministrativeBoundaryFeature/example_1_1.ttl"
         }
       ]
     }
   ],
-  "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\ndescription: Example of a simple GeoJSON Feature AdministrativeBoundary with Inspire\n  Model\n$defs:\n  MyFeature:\n    allOf:\n    - $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml\n    - properties:\n        properties:\n          $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml\nanyOf:\n- $ref: '#/$defs/MyFeature'\n",
+  "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\ndescription: Example of a simple GeoJSON Feature AdministrativeBoundary with Inspire\n  Model\n$defs:\n  MyFeature:\n    allOf:\n    - $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml\n    - properties:\n        properties:\n          $ref: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml\nanyOf:\n- $ref: '#/$defs/MyFeature'\n",
   "gitRepository": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary",
   "gitPath": "_sources/AdministrativeBoundaryFeature"
 }

@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.bbr.template.AdministrativeBoundary - AdministrativeBoundary",
   "bblockName": "AdministrativeBoundary",
   "bblockId": "ogc.bbr.template.AdministrativeBoundary",
-  "generated": "2024-05-29T07:22:46.099722+00:00",
+  "generated": "2024-05-29T07:29:27.155226+00:00",
   "result": true,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/bbr/template/AdministrativeBoundary/example_1_1.json",
-        "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/tests/bbr/template/AdministrativeBoundary/example_1_1.json",
+        "url": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/tests/bbr/template/AdministrativeBoundary/example_1_1.json",
         "exampleIndex": 1,
         "snippetIndex": 1,
         "language": "json"

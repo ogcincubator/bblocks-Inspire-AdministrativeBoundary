@@ -10,7 +10,7 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-04-04",
+  "dateOfLastChange": "2024-05-29",
   "link": "https://github.com/MayteToscano/bblock-template/AdministrativeBoundary",
   "sources": [
     {
@@ -31,11 +31,11 @@
     "ogc.bbr.template.TechnicalStatusValue"
   ],
   "schema": {
-    "application/yaml": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml",
-    "application/json": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema.json"
+    "application/yaml": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml",
+    "application/json": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema.json"
   },
-  "sourceSchema": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/AdministrativeBoundary/schema.yaml",
-  "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/AdministrativeBoundary/",
+  "sourceSchema": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/_sources/AdministrativeBoundary/schema.yaml",
+  "sourceFiles": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/_sources/AdministrativeBoundary/",
   "validationPassed": true,
   "testOutputs": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/blob/main/build/tests/bbr/template/AdministrativeBoundary/",
   "description": "\n## AdministrativeBoundary Inspire Data Model Profile for OGC API\n\nThis specification defines the specific requirements of the AdministrativeBoundary Information Model.\nAdministrative Boundary is defined like a line of demarcation between administrative units.\n\n- [INSPIRE Administrative Boundary](https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary)\n- [OGC-API IDE CATALONIA AdministrativeBoundary](https://geoserveis.ide.cat/servei/catalunya/inspire/ogc/features/collections/inspire:AU.AdministrativeBoundary/)\n\n## Key features of this profile:\n- a schema for the AdministrativeBoundary element with the Inspire data model\n- a JSON-LD context for this result schema\n- JSON-LD context elements defining namespaces for the values",
@@ -48,12 +48,12 @@
           "language": "json",
           "ref": "examples/AdministrativeBoundary.json",
           "code": "{\n    \"localid\": \"ID.AU.linia.1\",\n    \"country\": \"ES\", \n    \"nationallevel\": \"4th order\",\n    \"legalstatus\": \"agreed\",\n    \"technicalstatus\": \"edgeMatched\",\n    \"administrativeunit1\": \"080018\",\n    \"administrativeunit2\": \"080543\",\n    \"beginlifespanversion\": \"2017-07-26\",\n    \"namespace\": \"Catalunya.AU\",\n    \"versionid\": \"20230511\" \n  }\n  ",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/tests/bbr/template/AdministrativeBoundary/example_1_1.json"
+          "url": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/tests/bbr/template/AdministrativeBoundary/example_1_1.json"
         }
       ]
     }
   ],
-  "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\ndescription: A line of demarcation between administrative units.\ntype: object\nproperties:\n  localid:\n    type: string\n    pattern: ^ID\\.AU\\.linia\\.\\d+$\n  country:\n    type: string\n    enum:\n    - ES\n  allOf:\n    $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema.yaml\n  administrativeunit1:\n    type: string\n  administrativeunit2:\n    type: string\n  beginlifespanversion:\n    type: string\n    format: date-time\n  namespace:\n    type: string\n  versionid:\n    type: string\nrequired:\n- localid\n- country\n- nationallevel\n- legalstatus\n- technicalstatus\n- administrativeunit1\n- administrativeunit2\n- beginlifespanversion\n- namespace\n- versionid\n",
+  "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\ndescription: A line of demarcation between administrative units.\ntype: object\nproperties:\n  localid:\n    type: string\n    pattern: ^ID\\.AU\\.linia\\.\\d+$\n  country:\n    type: string\n    enum:\n    - ES\n  allOf:\n    $ref: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/TechnicalStatusValue/schema.yaml\n  administrativeunit1:\n    type: string\n  administrativeunit2:\n    type: string\n  beginlifespanversion:\n    type: string\n    format: date-time\n  namespace:\n    type: string\n  versionid:\n    type: string\nrequired:\n- localid\n- country\n- nationallevel\n- legalstatus\n- technicalstatus\n- administrativeunit1\n- administrativeunit2\n- beginlifespanversion\n- namespace\n- versionid\n",
   "gitRepository": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary",
   "gitPath": "_sources/AdministrativeBoundary"
 }

@@ -10,7 +10,7 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-04-04",
+  "dateOfLastChange": "2024-05-29",
   "link": "https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel",
   "sources": [
     {
@@ -28,11 +28,11 @@
   ],
   "shaclRules": {},
   "schema": {
-    "application/yaml": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeHierarchyLevel/schema.yaml",
-    "application/json": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeHierarchyLevel/schema.json"
+    "application/yaml": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeHierarchyLevel/schema.yaml",
+    "application/json": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeHierarchyLevel/schema.json"
   },
-  "sourceSchema": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/AdministrativeHierarchyLevel/schema.yaml",
-  "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/_sources/AdministrativeHierarchyLevel/",
+  "sourceSchema": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/_sources/AdministrativeHierarchyLevel/schema.yaml",
+  "sourceFiles": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/_sources/AdministrativeHierarchyLevel/",
   "validationPassed": true,
   "testOutputs": "https://github.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/blob/main/build/tests/bbr/template/AdministrativeHierarchyLevel/",
   "description": "\n## Codelist AdministrativeHierarchyLevel  \n\nLevels of administration in the national administrative hierarchy. This code list reflects the level in the hierarchical pyramid of the administrative structures, which is based on geometric aggregation of territories and does not necessarily describe the subordination between the related administrative authorities.\n## Values AdministrativeHierarchyLevel\n| Order    | Description                                            |\n|----------|--------------------------------------------------------|\n| 1st order| Highest level in the national administrative hierarchy |\n| 2nd order| 2nd level in the national administrative hierarchy     |\n| 3rd order| 3rd level in the national administrative hierarchy     |\n| 4th order| 4th level in the national administrative hierarchy     |\n| 5th order| 5th level in the national administrative hierarchy     |\n| 6th order| 6th level in the national administrative hierarchy     |\n",
@@ -45,7 +45,7 @@
           "language": "json",
           "ref": "examples/AdministrativeHierarchyLevel.json",
           "code": "{\n  \"nationallevel\": \"1st order\"\n}",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/tests/bbr/template/AdministrativeHierarchyLevel/example_1_1.json"
+          "url": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/tests/bbr/template/AdministrativeHierarchyLevel/example_1_1.json"
         }
       ]
     }

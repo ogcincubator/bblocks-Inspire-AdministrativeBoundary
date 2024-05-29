@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.template.AdministrativeBoundaryFeature - AdministrativeBoundary Feature
-Generated 2024-05-29T07:22:46.184686+00:00
+Generated 2024-05-29T07:29:27.273081+00:00
 === General ===
 Test was expected to fail and it did.
 === End General ===
@@ -18,7 +18,7 @@ ValidationError: {'id': 'f1', 'type': 'Feature', 'geometry': {'type': 'LineStrin
 
 Failed validating 'anyOf' in schema:
     {'$defs': {'MyFeature': {'allOf': [{'$ref': 'https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml'},
-                                       {'properties': {'properties': {'$ref': 'https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml'}}}]}},
+                                       {'properties': {'properties': {'$ref': 'https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema.yaml'}}}]}},
      '$schema': 'https://json-schema.org/draft/2020-12/schema',
      'anyOf': [{'$ref': '#/$defs/MyFeature'}],
      'description': 'Example of a simple GeoJSON Feature '

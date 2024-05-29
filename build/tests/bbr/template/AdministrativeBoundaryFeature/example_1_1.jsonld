@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundaryFeature/context.jsonld",
+    "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundaryFeature/context.jsonld",
     {
       "mynamespace": "http://example.org/ns1/"
     }

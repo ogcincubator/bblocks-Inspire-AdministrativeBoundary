@@ -11,7 +11,7 @@ x-defs:
         enum:
         - ES
       allOf:
-        $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.yaml#/x-defs/raw.githubusercontent.com_ogcincubator_bblocks-Inspire-AdministrativeBoundary_main_build_annotated_bbr_template_TechnicalStatusValue_schema.yaml
+        $ref: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.yaml#/x-defs/ogcincubator.github.io_bblocks-Inspire-AdministrativeBoundary_build_annotated_bbr_template_TechnicalStatusValue_schema.yaml
       administrativeunit1:
         type: string
       administrativeunit2:
@@ -35,9 +35,9 @@ x-defs:
     - namespace
     - versionid
     x-schema-version: https://json-schema.org/draft/2020-12/schema
-    x-schema-source: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.yaml
-  ? raw.githubusercontent.com_ogcincubator_bblocks-Inspire-AdministrativeBoundary_main_build_annotated_bbr_template_TechnicalStatusValue_schema.yaml
-  : description: Schemas for TechnicalStatusValue
+    x-schema-source: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.yaml
+  ogcincubator.github.io_bblocks-Inspire-AdministrativeBoundary_build_annotated_bbr_template_TechnicalStatusValue_schema.yaml:
+    description: Schemas for TechnicalStatusValue
     type: object
     properties:
       technicalstatus:
@@ -53,6 +53,6 @@ x-defs:
     required:
     - technicalstatus
     x-schema-version: https://json-schema.org/draft/2020-12/schema
-    x-schema-source: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema.yaml
+    x-schema-source: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/TechnicalStatusValue/schema.yaml
 allOf:
-- $ref: https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundary_schema.yaml
+- $ref: https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundary_schema.yaml

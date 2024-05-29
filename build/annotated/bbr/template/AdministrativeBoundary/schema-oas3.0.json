@@ -15,7 +15,7 @@
           ]
         },
         "allOf": {
-          "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.json#/x-defs/raw.githubusercontent.com_ogcincubator_bblocks-Inspire-AdministrativeBoundary_main_build_annotated_bbr_template_TechnicalStatusValue_schema.json"
+          "$ref": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.json#/x-defs/ogcincubator.github.io_bblocks-Inspire-AdministrativeBoundary_build_annotated_bbr_template_TechnicalStatusValue_schema.json"
         },
         "administrativeunit1": {
           "type": "string"
@@ -47,9 +47,9 @@
         "versionid"
       ],
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
-      "x-schema-source": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.json"
+      "x-schema-source": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.json"
     },
-    "raw.githubusercontent.com_ogcincubator_bblocks-Inspire-AdministrativeBoundary_main_build_annotated_bbr_template_TechnicalStatusValue_schema.json": {
+    "ogcincubator.github.io_bblocks-Inspire-AdministrativeBoundary_build_annotated_bbr_template_TechnicalStatusValue_schema.json": {
       "description": "Schemas for TechnicalStatusValue",
       "type": "object",
       "properties": {
@@ -72,12 +72,12 @@
         "technicalstatus"
       ],
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
-      "x-schema-source": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/TechnicalStatusValue/schema.json"
+      "x-schema-source": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/TechnicalStatusValue/schema.json"
     }
   },
   "allOf": [
     {
-      "$ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundary_schema.json"
+      "$ref": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/AdministrativeBoundary/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_bbr_template_AdministrativeBoundary_schema.json"
     }
   ]
 }

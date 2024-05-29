@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.bbr.template.TechnicalStatusValue - TechnicalStatusValue",
   "bblockName": "TechnicalStatusValue",
   "bblockId": "ogc.bbr.template.TechnicalStatusValue",
-  "generated": "2024-05-29T07:22:46.074391+00:00",
+  "generated": "2024-05-29T07:29:27.130165+00:00",
   "result": true,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/bbr/template/TechnicalStatusValue/example_1_1.json",
-        "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/tests/bbr/template/TechnicalStatusValue/example_1_1.json",
+        "url": "https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/tests/bbr/template/TechnicalStatusValue/example_1_1.json",
         "exampleIndex": 1,
         "snippetIndex": 1,
         "language": "json"

@@ -54,8 +54,8 @@ required:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/LegalStatusValue/schema.json)
-* JSON version: [schema.json](https://raw.githubusercontent.com/ogcincubator/bblocks-Inspire-AdministrativeBoundary/main/build/annotated/bbr/template/LegalStatusValue/schema.yaml)
+* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/LegalStatusValue/schema.json)
+* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-Inspire-AdministrativeBoundary/build/annotated/bbr/template/LegalStatusValue/schema.yaml)
 
 ## Sources
 
